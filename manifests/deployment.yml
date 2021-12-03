@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: neiopocrepository 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: neiopocrepository
+  template:
+    metadata:
+      labels:
+        app: neiopocrepository 
+    spec:
+      containers:
+        - name: neiopocrepository 
+          image: okuppurajah.azurecr.io/neiopocrepository
+          ports:
+          - containerPort: 8080
