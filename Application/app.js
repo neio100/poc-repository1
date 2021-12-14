@@ -15,6 +15,8 @@ var appInsights = require('applicationinsights');
 appInsights.setup();
 appInsights.start();
 
+
+
 var app = express();
 var client = redis.createClient(6379, redisServer);
 
