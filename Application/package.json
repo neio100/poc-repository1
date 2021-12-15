@@ -28,8 +28,7 @@
     "express": "^4.17.1",
     "react": "^17.0.2",
     "react-bootstrap": "^2.0.3",
-    "react-dom": "^17.0.2",
-    "uiline": "^1.0.6"
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.15.8",
