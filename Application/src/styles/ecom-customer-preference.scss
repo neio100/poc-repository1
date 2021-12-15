@@ -1,0 +1,63 @@
+
+.ecom-customer-preference-feature {
+    .preferences {
+        margin-bottom: auto;
+    }
+
+   .preference-headers, .preference-header, .preference-header th, .preference-header td {
+        border-top-width: 0px;
+    }
+
+    .preference-items {
+        .preference-input {
+            position: initial;
+            margin-left: auto;
+        }
+    }
+
+    .preference-actions {
+      .action-submit,
+      .action-cancel {
+          font-size: 14px;
+          line-height: 12px;
+          padding-bottom: 11px;
+          padding-top: 11px;
+      }
+  }
+}
+
+//overwriting styles for checkboxes
+.label-container {
+    cursor: pointer;
+    user-select: none;
+  }
+  .label-container:hover input ~ .custom-checkbox {
+    background-color: $white;
+}
+     
+  .label-container input:checked ~ .custom-checkbox {
+    background-color: $blue;
+  }
+   .custom-checkbox:after {
+    content: "";
+  }
+  .custom-checkbox {
+    height: 15px;
+    width: 15px;
+    background-color: $white;
+  }
+  .label-container .custom-checkbox:after {
+    left: 3px;
+    top: -1px;
+    width: 7px;
+    height: 13px;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+  
+    .preference-items {
+        .preference-input {
+            position: initial;
+            margin-left: auto;
+        }
+    }
